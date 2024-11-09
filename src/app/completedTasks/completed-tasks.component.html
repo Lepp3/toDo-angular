@@ -1,0 +1,14 @@
+
+    <div class="completedHolder">
+        <h2>Recently Completed</h2>
+        @if(completedTasks.length){
+        <ul>
+            @for(task of completedTasks; track $index) {
+                <li>{{completedTasks.indexOf(task)+1+'.'}} {{task}}</li>
+            }
+        </ul>
+        <button  class="clear" (click)="clearCompleted()">Clear History</button>
+    }
+    </div>
+
+

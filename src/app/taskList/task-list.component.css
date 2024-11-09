@@ -1,0 +1,85 @@
+.wrapper{
+    background-color: rgb(202, 198, 198);
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    align-items: center;
+}
+
+.holder{
+    display: flex;
+    gap: 10px;
+    width: 30%;
+    justify-content: space-between;
+    position: relative;
+}
+
+.holder input{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    flex: 0 0 90%;
+}
+
+.holder input:focus{
+    outline: none;
+}
+
+.importer{
+    background-color: blue;
+    color: yellow;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+    left: 80%;
+}
+
+.tasks li{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li p{
+    display: block;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+li a{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+li a:hover{
+    background-color: darkgreen;
+}
+
+.completeAll{
+    border: none;
+    padding: 10px;
+    background-color: yellow;
+    color: red;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    align-self: flex-end;
+    text-align: center;
+    align-items: center;
+}
+
+.completeAll:hover{
+    background-color: rgb(146, 146, 10);
+    color: rgb(243, 164, 164);
+    
+}

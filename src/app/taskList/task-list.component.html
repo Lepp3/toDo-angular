@@ -1,0 +1,15 @@
+<div class="wrapper">
+    <h2>To-Do's</h2>
+    <div class="holder">
+        <input #taskInput type="text" placeholder="Next Task">
+        <button class="importer" (click)="taskAdd(taskInput,taskInput.value)">Submit</button>
+    </div>
+    @if(tasks.length){
+        <ul class="tasks">
+            @for(task of tasks; track $index){
+                <li><p>{{tasks.indexOf(task)+1+'.'}} {{task.taskName}}</p><a (click)="taskComplete(task.taskName,task.id)" href="#">Complete</a></li>
+            }
+        </ul>
+        <button (click)="allTaskComplete()" class="completeAll">Complete All</button>
+    }
+</div>

@@ -1,0 +1,27 @@
+nav{
+    width: 50%;
+    margin: 30px auto;
+    opacity: 0.8;
+    padding: 10px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+li a{
+    padding: 20px;
+    display: block;
+    border-radius: 9px;
+    font-size: 1.3em;
+}
+
+li a:hover{
+    background-color: black;
+    color: white;
+}

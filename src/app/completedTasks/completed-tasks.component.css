@@ -1,0 +1,31 @@
+.completedHolder{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    width: 40%;
+    margin: 30px auto;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.completedHolder ul li{
+    font-size: 1.3em;
+
+}
+
+.clear{
+    padding: 10px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+}
+
+.clear:hover{
+    background-color: black;
+    color: white;
+}
+
+
